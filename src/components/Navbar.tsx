@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
-import { cn } from "@/utils/cn";
+import { cn } from "../utils/cn";
 import Link from "next/link";
 
 function Navbar({ className }: { className?: string }) {
@@ -14,6 +14,7 @@ function Navbar({ className }: { className?: string }) {
         <Menu setActive={setActive}>
             <Link href={"/"}>
             <MenuItem setActive={setActive} active={active} item="Home">
+            
             </MenuItem>
             </Link>
             <MenuItem
