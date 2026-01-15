@@ -36,7 +36,9 @@ const instructors = [
 function Instructors() {
   return (
     // Instructor wrapper
-    <div className="relative min-h-[40rem] overflow-hidden flex items-center justify-center">
+   
+    <div className="relative py-0 overflow-hidden"> 
+
       <WavyBackground className="w-full max-w-7xl mx-auto flex flex-col items-center justify-center h-full">
         <h2 className="text-2xl md:text-4xl lg:text-7xl text-white font-bold text-center mb-8">
           Meet Our Instructors
